@@ -7,8 +7,8 @@ cd cloudshell-toolbox
 chmod ugo+rwx . 
 
 cd ../
-git clone https://github.com/jpapejr/toolburster
-cd toolburster
+git clone https://github.com/jpapejr/vsix-cache
+cd vsix-cache
 chmod ugo+rwx . 
 
 cd ..
