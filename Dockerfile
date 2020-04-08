@@ -6,4 +6,4 @@ RUN git clone https://github.com/jpapejr/cloudshell-toolbox
 RUN git clone https://github.com/jpapejr/vsix-cache
 
 ENTRYPOINT ["tail"]
-COMMAND ["-f", "/dev/null"]
+CMD ["-f", "/dev/null"]
