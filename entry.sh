@@ -1,15 +1,16 @@
 #!/bin/sh
 set -x
 
-cd /utils/cloudshell-toolbox
-git pull origin master
-git checkout -- *
+
+git clone https://github.com/jpapejr/cloudshell-toolbox
+cd cloudshell-toolbox
 chmod ugo+rwx . 
 
-cd ../vsix-cache
-git pull origin master
-git checkout -- *
+cd ../
+git clone https://github.com/jpapejr/toolburster
+cd toolburster
 chmod ugo+rwx . 
 
+cd ..
 
 tail -f /dev/null
